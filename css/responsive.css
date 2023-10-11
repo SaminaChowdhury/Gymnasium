@@ -1,0 +1,441 @@
+/*  ==================
+   Extra small device starts
+===================== */
+
+@media (max-width:575px){
+    .navbar .navbar-brand{
+        width: 60%;
+        position: unset !important;
+        transform: skewX(0deg) !important;
+        padding: 0 15px !important;
+    }
+    .navbar .navbar-brand img{
+        width: 100%;        
+        transform: skewX(0deg) !important;        
+    }
+    .navbar .navbar-toggler{
+        border-color: #fff;
+        margin-right: 10px;
+    }
+    .navbar .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-light .navbar-nav{
+        background: rgba(223, 222, 222, 0.479);
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link::before{
+        width: 0%;
+        height: 100%;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:hover::before{
+        width: 100%;
+    }
+    /* navbar css */
+
+    /* banner css starts */
+
+    #banner .banner-slider .bg1 .container .banner-text h4::before,
+    #banner .banner-slider .bg1 .container .banner-text h4::after,
+    #banner .banner-slider .bg1 .container .banner-text h3::before,
+    #banner .banner-slider .bg1 .container .banner-text h3::after,
+    #banner .banner-slider .bg1 .container .banner-text p::before,
+    #banner .banner-slider .bg1 .container .banner-text p::after
+    {
+        display: none;
+    }
+    #banner .banner-slider .banner-item .container .banner-text h4{
+        font-size: 24px;
+    }
+    #banner .banner-slider .banner-item .container .banner-text h3{
+        font-size: 48px;
+    }
+    #banner .banner-slider .bg1 p {
+        padding: 0;
+    }
+    #banner .banner-item .cta-btn:first-of-type {
+        margin-right: 10px;
+    }
+    /* banner css ends */
+
+    /* About css start */
+
+    #about{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #about .about-title p{
+        padding: 0px;
+        line-height: 24px;
+        /* margin: 5px; */
+    }
+    
+    #about .about-image{
+        margin-top: 15px;
+    }
+
+    /* About css ends */
+
+     /* garller css start */
+
+     #gallery .section-head{
+         margin-top: 50px;
+     }     
+
+    /* garller css ends */
+
+    /* our team css starts */
+
+    #team .sevtion-head{
+        margin-top: 0px;
+    }
+    #team .team-item{
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    /* our team css ends */
+    /* testimonial css starts */
+
+    #testimonial .section-head{
+        margin-top: 50px;
+    } 
+    /* testmonial css ends */
+    /* membership css starts */
+
+    #membership .membership-item .price h3{
+        font-size: 40px;
+    } 
+    /* membership css ends */
+    /*  counter css starts */
+    
+
+    #counter-up .counter-item{
+        text-align: center;
+        margin-bottom: 20px;        
+    }
+    /*  counter css ends */
+    /*  routine css starts */
+
+    #routine .section-head{
+        margin-top: 50px;
+    }
+    #routine .nav-tabs .nav-item{
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    #routine .routine-detail ul li{
+        width: 100%;
+    }
+    #brand .brand-item img{
+        width: 100%;
+    }
+    /*  routine css ends */
+    /*  footer css starts */
+    footer .footer-copyright .copyright p{
+        font-size: 13px;
+        line-height: 30px;
+    }
+    /*  footer css ends */
+    
+}
+
+/*  ==================
+   Extra small device starts
+===================== */
+
+/*  ==================
+    small device starts
+===================== */
+
+@media (min-width:576px) and (max-width:767px){
+    /* navbar starts */
+    .navbar .navbar-brand{
+        width: 60%;
+        position: unset !important;
+        transform: skewX(0deg) !important;
+        padding: 0 15px !important;
+    }
+    .navbar .navbar-brand img{
+        width: 100%;        
+        transform: skewX(0deg) !important;        
+    }
+    .navbar .navbar-toggler{
+        border-color: #fff;
+        margin-right: 10px;
+    }
+    .navbar .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-light .navbar-nav{
+        background: rgba(223, 222, 222, 0.479);
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link::before{
+        width: 0%;
+        height: 100%;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:hover::before{
+        width: 100%;
+    }
+    /* navbar ends */
+    /* banner css starts */
+
+    #banner .banner-slider .bg1 .container .banner-text h4::before,
+    #banner .banner-slider .bg1 .container .banner-text h4::after,
+    #banner .banner-slider .bg1 .container .banner-text h3::before,
+    #banner .banner-slider .bg1 .container .banner-text h3::after,
+    #banner .banner-slider .bg1 .container .banner-text p::before,
+    #banner .banner-slider .bg1 .container .banner-text p::after
+    {
+        display: none;
+    }
+    #banner .banner-slider .banner-item .container .banner-text h4{
+        font-size: 26px;
+    }
+    #banner .banner-slider .banner-item .container .banner-text h3{
+        font-size:52px;
+    }
+    #banner .banner-slider .bg1 p {
+        padding: 0;
+    }
+    #banner .banner-item .cta-btn:first-of-type {
+        margin-right: 10px;
+    }
+    /* banner css ends */
+    
+    /* About css start */
+
+    #about{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #about .about-title p{
+        padding: 0;
+    }
+    
+    #about .about-image{
+        margin-top: 15px;
+    }
+
+    /* About css ends */
+    /* garller css start */
+
+    #gallery .section-head{
+        margin-top: 60px;
+    }     
+
+   /* garller css ends */
+   
+    /* our team css starts */
+    #team{
+        padding-bottom: 5px;
+    }
+
+    #team .sevtion-head{
+        margin-top: 0px;
+    }
+    #team .team-item{
+        margin-top: 15px;
+    }
+    /* our team css ends */
+    /* testimonial css starts */
+
+    #testimonial .section-head{
+        margin-top: 40px;
+    } 
+    /* testmonial css ends */
+    /* membership css starts */
+
+    #membership .membership-item .price h3{
+        font-size: 40px;
+    } 
+    /* membership css ends */
+    /*  counter css starts */
+    
+
+    #counter-up .counter-item{
+        text-align: center;
+        margin-bottom: 20px;        
+    }
+    /*  counter css ends */
+    /*  routine css starts */
+
+    #routine .section-head{
+        margin-top: 40px;
+    }
+    #routine .nav-tabs .nav-item{
+        width: 49%;
+        margin:2px;
+    }
+    #routine .routine-detail ul li{
+        width: 50%;
+    }
+    /*  routine css ends */
+    /*  brand css starts */
+    #brand .brand-item img{
+        width: 95%;
+        margin-right: 15px!important;
+    }
+    /*  brand css ends */
+    /*  footer css starts */
+    footer .footer-copyright .copyright p{
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+    /*  footer css ends */
+    
+
+}
+
+
+/*  ==================
+    small device starts
+===================== */
+/*  ==================
+    medium device starts
+===================== */
+
+@media (min-width:767px) and (max-width:992px){
+     /* navbar starts */
+     .navbar .navbar-brand{
+        /* width: 80%; */
+        position: unset !important;
+        /* transform: skewX(0deg) !important;
+        padding: 0 15px !important; */
+    }
+    /* .navbar .navbar-brand img{
+        width: 100%;        
+        transform: skewX(0deg) !important;        
+    } */
+    
+
+    .navbar-light .navbar-toggler {
+        color: rgb(255, 255, 255);
+        border-color: #ffffff;
+    }
+    
+    .navbar-light .navbar-nav{
+        background: #f8f6f67a;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link::before{
+        width: 0%;
+        height: 100%;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:hover::before{
+        width: 100%;
+    }
+    /* navbar ends */
+    /* banner css starts */
+
+    #banner .banner-slider .banner-item .container .banner-text h4{
+        font-size: 30px;
+    }
+    #banner .banner-slider .banner-item .container .banner-text h3{
+        font-size:58px;
+    }
+    #banner .banner-slider .bg1 p {
+        padding: 0;
+    }
+    #banner .banner-item .cta-btn:first-of-type {
+        margin-right: 10px;
+    }
+    /* banner css ends */
+    
+    /* About css start */
+
+    #about{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
+    #about .about-title p{
+        padding: 0;
+    }
+    
+    #about .about-image{
+        margin-top: 30px;
+    }
+
+    /* About css ends */
+    /* garller css start */
+
+    #gallery .section-head{
+        margin-top: 60px;
+    }     
+
+   /* garller css ends */
+   
+    /* our team css starts */
+    #team{
+        padding-bottom: 5px;
+    }
+
+    #team .sevtion-head{
+        margin-top: 0px;
+    }
+    #team .team-item{
+        margin-top: 15px;
+    }
+    /* our team css ends */
+    /* testimonial css starts */
+
+    #testimonial .section-head{
+        margin-top: 40px;
+    } 
+    /* testmonial css ends */
+    /* membership css starts */
+
+    #membership .membership-item .price h3{
+        font-size: 40px;
+    } 
+    /* membership css ends */
+    /*  counter css starts */
+    
+
+    #counter-up .counter-item{
+        text-align: center;
+        margin-bottom: 20px;        
+    }
+    /*  counter css ends */
+    /*  routine css starts */
+
+    #routine .section-head{
+        margin-top: 40px;
+    }
+    #routine .nav-tabs .nav-item{
+        width: 49%;
+        margin:2px;
+    }
+    #routine .routine-detail ul li{
+        width: 50%;
+    }
+    /*  routine css ends */
+    /*  brand css starts */
+    #brand .brand-item img{
+        width: 95%;
+        margin-right: 15px!important;
+    }
+    /*  brand css ends */
+    /*  footer css starts */
+    footer .footer-copyright .copyright p{
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+    /*  footer css ends */
+    
+
+}
+/*  ==================
+    medium device starts
+===================== */
